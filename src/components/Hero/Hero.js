@@ -8,6 +8,12 @@ function Hero() {
     return (
         <div className="hero">
             <Navbar />
+
+            <div className="hero-description">
+                <p>Be healthy now is so simple</p>
+                <h1>We Take Care Of Your Health</h1>
+                <button className="btn">Request an appointment</button>
+            </div>
         </div>
     )
 }

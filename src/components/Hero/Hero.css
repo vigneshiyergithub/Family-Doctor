@@ -1,0 +1,57 @@
+:root{
+    --universlColor: rgb(17, 114, 206);
+    --headingColor: rgb(14, 53, 90);
+}
+
+.hero{
+    background: url(../../bg-images/hero.jpg);
+    background-size: 1800px 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-description{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 130px;
+    margin-left: 20px;
+}
+
+.hero-description p{
+    font-weight: 700;
+    color: var(--universlColor);
+    font-size: 1.7rem;
+}
+
+.hero-description h1{
+    font-size: 5rem;
+    font-weight: 600;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.btn{
+    display: flex;
+    margin-top: 30px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    outline: none;
+    background: var(--universlColor);
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: var(--headingColor);
+}

@@ -1,5 +1,6 @@
 *{
-    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,4 +17,10 @@ h4,
 h5,
 h6{
     color: var(--headingColor);
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
 }
