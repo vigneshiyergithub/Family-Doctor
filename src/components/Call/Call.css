@@ -1,0 +1,45 @@
+.call-section{
+    display: flex;
+    padding: 70px 30px;
+    background: url(../../bg-images/call-bg.jpg);
+    background-color: rgb(51, 139, 240);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.call-section >h3{
+    color: #fff;
+    font-size: 2rem;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.call-section p{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 30%;
+    background: rgb(91, 145, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    padding: 18px;
+}
+
+
+.call-section p a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 3px;
+    transition: 0.3s;
+}
+
+.call-section p a:hover{
+    opacity: .3;
+}
