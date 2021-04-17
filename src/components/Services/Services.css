@@ -8,15 +8,31 @@
 }
 
 .services-section h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .services-gallery{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    grid-gap: 30px;
+    grid-gap: 20px;
 }
 
 .image{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.image h5{
+    font-size: 1.5rem;
+    background: rgb(237, 247, 241);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: 300;
 }
