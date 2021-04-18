@@ -5,6 +5,7 @@ import Call from './components/Call/Call';
 import Credentials from './components/Credentials/Credentials';
 import Hero from './components/Hero/Hero';
 import Services from './components/Services/Services';
+import Video from './components/Video/Video';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <About />
       <Credentials />
+      <Video />
     </div>
   );
 }

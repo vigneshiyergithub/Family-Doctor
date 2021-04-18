@@ -1,0 +1,21 @@
+.video{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0px;
+    background: url(../../bg-images/video.jpg);
+    color: #fff !important;
+}
+
+.video i{
+    font-size: 7rem;
+    cursor: pointer;
+}
+
+.video h3{
+    color: #fff !important;
+    font-size: 3rem;
+    font-weight: 500;
+}
