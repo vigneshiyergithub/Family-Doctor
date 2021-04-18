@@ -1,0 +1,66 @@
+:root{
+    --universlColor: rgb(17, 114, 206);
+}
+.about-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 30px;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(../../bg-images/welcome.jpg);
+    background-repeat: no-repeat;
+    background-position: -50%;
+    background-size: cover; */
+}
+
+.about-section h1{
+    width: 30%;
+    margin-left: 50px;
+    font-size: 3rem;
+}
+
+.about-section p{
+    width: 40%;
+    margin-left: 180px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.about-section h6{
+    margin-top: 30px;
+    color: var(--universlColor);
+    font-weight: 300;
+    margin-left: 250px;
+    font-size: 1.2rem;
+}
+
+.about-section h3{
+    margin-top: 30px;
+    width: 40%;
+    font-size: 2rem;
+    margin-left: 180px;
+}
+
+.steps{
+    display: flex;
+    width: 30% !important;
+    margin-left: 70px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.step-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.step-text h2{
+    color: var(--universlColor) !important;
+    font-size: 1rem; 
+}
+
+.step-text p{
+    margin-left: -10px;
+}
