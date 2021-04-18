@@ -1,5 +1,6 @@
 :root{
     --universlColor: rgb(17, 114, 206);
+    --headingColor: rgb(14, 53, 90);
 }
 .about-section{
     display: flex;
@@ -8,10 +9,12 @@
     padding: 50px 30px;
     justify-content: center;
     align-items: center;
-    /* background-image: url(../../bg-images/welcome.jpg);
+    padding-left: 250px;
+    background-image: url(../../bg-images/welcome.jpg);
+    background-color: rgb(237, 253, 243);
     background-repeat: no-repeat;
-    background-position: -50%;
-    background-size: cover; */
+    background-position: -750px 0px;
+    background-size: cover;
 }
 
 .about-section h1{
@@ -25,6 +28,7 @@
     margin-left: 180px;
     font-size: 1.2rem;
     margin-top: 20px;
+    color: var(--headingColor);
 }
 
 .about-section h6{
