@@ -79,6 +79,7 @@
     grid-template-columns: repeat(5, 1fr);
     width: 100%;
     margin-top: 100px;
+    padding: 0px !important;
 }
 
 .showcase-image{

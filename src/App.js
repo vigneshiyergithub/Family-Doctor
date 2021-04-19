@@ -4,6 +4,7 @@ import About from './components/About/About';
 import Call from './components/Call/Call';
 import Credentials from './components/Credentials/Credentials';
 import Hero from './components/Hero/Hero';
+import Partners from './components/Partners/Partners';
 import Services from './components/Services/Services';
 import Team from './components/Team/Team';
 import Video from './components/Video/Video';
@@ -18,6 +19,7 @@ function App() {
       <Credentials />
       <Video />
       <Team />
+      <Partners />
     </div>
   );
 }
