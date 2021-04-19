@@ -1,20 +1,32 @@
-import React from 'react';
-
-import { FiPlus } from 'react-icons/fi';
+import React, { Component } from 'react';
+import { TiPlus, TiMinus } from 'react-icons/ti';
 import './FAQs.css';
 
-function FAQs() {
-    return (
-        <div className="faqs">
+
+class FAQs extends Component {
+
+    constructor(props){
+        super(props)
+        this.state={
+            toggleSign: <TiPlus />
+        }
+    }
+
+    handleToggle = () =>{
+        this.setState({toggleSign: !this.state.toggleSign});
+    }
+    render() {
+        return (
+            <div className="faqs">
             <h1>FAQ</h1>
 
             <div className="questions">
             <div className="question-container">
-                <div className="quiz-head">
+                <div className="quiz-head" onClick={this.handleToggle}>
                     <h5>01.If you had just to eat one thing for the rest of your life,
                         What would you choose?
                     </h5>
-                    <i><FiPlus /></i>
+                    <i>{this.state.toggleSign ? <TiPlus /> : <TiMinus />}</i>
                 </div>
                 <p>
                     We are on the leading edge of cancer care, providing the full continuum of 
@@ -25,10 +37,10 @@ function FAQs() {
             </div>
 
             <div className="question-container">
-                <div className="quiz-head">
+                <div className="quiz-head" onClick={this.handleToggle}>
                     <h5>03.Do i need a ong consult?
                     </h5>
-                    <i><FiPlus /></i>
+                    <i>{this.state.toggleSign ? <TiPlus /> : <TiMinus />}</i>
                 </div>
                 <p>
                     You can trust that your health is being managed by the professional team of health 
@@ -38,10 +50,10 @@ function FAQs() {
             </div>
 
             <div className="question-container">
-                <div className="quiz-head">
+                <div className="quiz-head" onClick={this.handleToggle}>
                     <h5>02.Which do you like better, cardio or weightlifting?
                     </h5>
-                    <i><FiPlus /></i>
+                    <i>{this.state.toggleSign ? <TiPlus /> : <TiMinus />}</i>
                 </div>
                 <p>
                     Nowadays people should balance their life between technological progress and natural life. Technogenic influence may cause different diseases, including cancer. It’s crucial to defend yourself from such affection.
@@ -51,10 +63,10 @@ function FAQs() {
             </div>
 
             <div className="question-container">
-                <div className="quiz-head">
+                <div className="quiz-head" onClick={this.handleToggle}>
                     <h5>04.What if i have to see a doctor after hours?
                     </h5>
-                    <i><FiPlus /></i>
+                    <i>{this.state.toggleSign ? <TiPlus /> : <TiMinus />}</i>
                 </div>
                 <p>
                     This was my first time taking my kids here and we are all absolutely satisfied. 
@@ -65,7 +77,8 @@ function FAQs() {
             </div>
             </div>
         </div>
-    )
+        );
+    }
 }
 
 export default FAQs;
