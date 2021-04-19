@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About/About';
 import Call from './components/Call/Call';
 import Credentials from './components/Credentials/Credentials';
+import FAQs from './components/FAQs/FAQs';
 import Hero from './components/Hero/Hero';
 import Partners from './components/Partners/Partners';
 import Services from './components/Services/Services';
@@ -22,6 +23,7 @@ function App() {
       <Team />
       <Partners />
       <Testimonials />
+      <FAQs />
     </div>
   );
 }

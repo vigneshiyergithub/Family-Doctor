@@ -33,12 +33,21 @@
     border-radius: 10px;
 }
 
+.slider-text p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.slider-text h5{
+    margin-top: 30px;
+}
+
 .chevrons{
     display: flex;
 }
 
 .chevrons i{
-    background: var(--headingColor);
+    background: var(--universlColor);
     color: #fff;
     border-radius: 50%;
     display: flex;
