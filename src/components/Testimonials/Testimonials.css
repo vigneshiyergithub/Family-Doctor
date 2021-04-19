@@ -7,4 +7,44 @@
     display: flex;
     padding: 100px 0px;
     background: url(../../bg-images/testmonialsbg.jpg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.slider-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.chevrons{
+    display: flex;
+}
+
+.chevrons i{
+    background: var(--headingColor);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
 }
