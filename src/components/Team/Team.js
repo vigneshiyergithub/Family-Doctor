@@ -43,6 +43,24 @@ function Team() {
                     </h6>
                 </div>
             </div>
+
+            <div className="showcase">
+                <div className="showcase-image">
+                    <img src="../../img/showcase1.jpg" alt=""/>
+                </div>
+                <div className="showcase-image">
+                    <img src="../../img/showcase2.jpg" alt=""/>
+                </div>
+                <div className="showcase-image">
+                    <img src="../../img/service2.jpg" alt=""/>
+                </div>
+                <div className="showcase-image">
+                    <img src="../../img/showcase3.jpg" alt=""/>
+                </div>
+                <div className="showcase-image">
+                    <img src="../../img/showcase4.jpg" alt=""/>
+                </div>
+            </div>
         </div>
     )
 }
