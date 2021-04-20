@@ -5,6 +5,7 @@ import Call from './components/Call/Call';
 import Contact from './components/Contact/Contact';
 import Credentials from './components/Credentials/Credentials';
 import FAQs from './components/FAQs/FAQs';
+import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero';
 import Partners from './components/Partners/Partners';
 import Services from './components/Services/Services';
@@ -26,6 +27,7 @@ function App() {
       <Testimonials />
       <FAQs />
       <Contact />
+      <Footer />
     </div>
   );
 }
