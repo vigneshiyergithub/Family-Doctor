@@ -1,0 +1,139 @@
+:root{
+    --universlColor: rgb(17, 114, 206);
+    --headingColor: rgb(14, 53, 90);
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 70px 0px;
+}
+
+#map{
+    display: flex;
+    width: 100%;
+}
+
+.contact-details{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.details i{
+    color: var(--universlColor) !important;
+    margin-right: 5px;
+}
+
+.details h1{
+    font-size: 3rem;
+    font-weight: 600;
+    display: flex;
+}
+
+.details h5{
+    display: flex;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.details h5 a{
+    text-decoration: none;
+    color: var(--headingColor);
+    text-decoration: none;
+}
+
+.details h5 i{
+    color: var(--universlColor);
+}
+
+.details h5 a:hover{
+    color: var(--universlColor);
+}
+
+.mailist{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mailist p{
+    margin-top: 10px;
+}
+
+.mailist p,
+.mailist p i,
+.mailist p  a{
+    display: flex;
+    align-items: center;
+    color: var(--headingColor);
+}
+
+.mailist p  a{
+    text-decoration: none !important;
+    margin-left: 5px;
+}
+
+.mailist p  a:hover{
+    color: var(--universlColor);
+}
+
+.contact-form{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-form form h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.input-field{
+    display: flex;
+    margin-top: 8px;
+    padding: 20px;
+    outline: none;
+    background: rgb(236, 236, 236);
+    border: none;
+}
+
+#message{
+    margin-top: 8px;
+    padding: 20px;
+    border: none;
+    background: rgb(236, 236, 236);
+    outline: none;
+}
+
+.submit-btn{
+    display: flex;
+    margin-top: 20px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    background: var(--universlColor);
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+}

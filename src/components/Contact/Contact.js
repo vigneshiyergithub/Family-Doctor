@@ -8,7 +8,7 @@ import './Contact.css';
 class Contact extends Component {
     render() {
         return (
-            <div className="contat-us">
+            <div className="contact-us">
                 
                 <div id="map"></div>
 
@@ -34,12 +34,11 @@ class Contact extends Component {
                     <div className="contact-form">
                         <form action="">
                             <h1>Get In Touch</h1>
-                            <input type="text" placeholder="Name*"/>
-                            <br/>
-                            <input type="email" placeholder="Email*"/>
-                            <br/>
-                            <input type="tel" placeholder="Phone"/>
-                            <br/>
+                            <input type="text" placeholder="Name*" className="input-field"/>
+                            <input type="email" placeholder="Email*" className="input-field"/>
+                            <input type="tel" placeholder="Phone" className="input-field"/>
+                            <textarea name="message" id="message" cols="30" rows="2" placeholder="Message*"></textarea>
+                            <button className="submit-btn">Send Message</button>
                         </form>
                     </div>
                 </div>
