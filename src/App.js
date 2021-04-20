@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import About from './components/About/About';
 import Call from './components/Call/Call';
+import Contact from './components/Contact/Contact';
 import Credentials from './components/Credentials/Credentials';
 import FAQs from './components/FAQs/FAQs';
 import Hero from './components/Hero/Hero';
@@ -24,6 +25,7 @@ function App() {
       <Partners />
       <Testimonials />
       <FAQs />
+      <Contact />
     </div>
   );
 }
