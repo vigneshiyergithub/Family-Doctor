@@ -18,10 +18,15 @@ function Partners() {
                 </div>
 
                 <div className="partner-image">
-                    <div><img src="../../img/partner1.jpg" alt=""/></div>
-                   <div> <img src="../../img/partner2.jpg" alt=""/></div>
-                    <div><img src="../../img/partner3.jpg" alt=""/></div>
-                    <div><img src="../../img/partner4.jpg" alt=""/></div>
+                    <div className="first-row">
+                        <div><img src="../../img/partner1.jpg" alt=""/></div>
+                        <div> <img src="../../img/partner2.jpg" alt=""/></div>
+                    </div>
+
+                    <div className="last-row">
+                        <div><img src="../../img/partner3.jpg" alt=""/></div>
+                        <div><img src="../../img/partner4.jpg" alt=""/></div>
+                    </div>
                 </div>
             </div>
         </div>
