@@ -9,8 +9,9 @@ import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero';
 import Partners from './components/Partners/Partners';
 import Services from './components/Services/Services';
+import Slideshow from './components/Slideshow/Slideshow';
 import Team from './components/Team/Team';
-import Testimonials from './components/Testimonials/Testimonials';
+// import Testimonials from './components/Testimonials/Testimonials';
 import Video from './components/Video/Video';
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
       <Video />
       <Team />
       <Partners />
-      <Testimonials />
+      <Slideshow />
+      {/* <Testimonials /> */}
       <FAQs />
       <Contact />
       <Footer />
