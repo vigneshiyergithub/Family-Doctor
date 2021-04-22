@@ -9,8 +9,6 @@ class Contact extends Component {
     render() {
         return (
             <div className="contact-us">
-                
-                <div id="map"></div>
 
                 <div className="contact-details">
                     <div className="details">

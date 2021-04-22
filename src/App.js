@@ -6,12 +6,12 @@ import Contact from './components/Contact/Contact';
 import Credentials from './components/Credentials/Credentials';
 import FAQs from './components/FAQs/FAQs';
 import Footer from './components/Footer/Footer';
+import GoogleMap from './components/Google/GoogleMap';
 import Hero from './components/Hero/Hero';
 import Partners from './components/Partners/Partners';
 import Services from './components/Services/Services';
 import Slideshow from './components/Slideshow/Slideshow';
 import Team from './components/Team/Team';
-// import Testimonials from './components/Testimonials/Testimonials';
 import Video from './components/Video/Video';
 
 function App() {
@@ -26,8 +26,8 @@ function App() {
       <Team />
       <Partners />
       <Slideshow />
-      {/* <Testimonials /> */}
       <FAQs />
+      <GoogleMap />
       <Contact />
       <Footer />
     </div>
