@@ -17,7 +17,7 @@ function Navbar() {
                     <li><a href="#">Services</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Doctors</a></li>
-                    <li><a href="#">All Blocks</a></li>
+                    <li><a href="#">Contact us</a></li>
                 </ul>
             </nav>
         </div>
