@@ -3,7 +3,7 @@
     --headingColor: rgb(14, 53, 90);
 }
 
-.hero{
+.hero-container{
     background: url(../../bg-images/hero.jpg);
     background-size: 1800px 100%;
     background-position: center;

@@ -6,7 +6,7 @@ import './Hero.css';
 
 function Hero() {
     return (
-        <div className="hero">
+        <div className="hero-container">
             <Navbar />
 
             <div className="hero-description">
