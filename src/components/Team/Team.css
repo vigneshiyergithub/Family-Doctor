@@ -1,92 +1,189 @@
-:root{
-    --universlColor: rgb(17, 114, 206);
-    --headingColor: rgb(14, 53, 90);
+:root {
+	--universlColor: rgb(17, 114, 206);
+	--headingColor: rgb(14, 53, 90);
 }
 
-.team{
-    display: flex;
-    flex-direction: column;
-    padding: 70px 30px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+.team {
+	display: flex;
+	flex-direction: column;
+	padding: 70px 30px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
 }
 
-.team h1{
-    font-size: 3rem;
+.team h1 {
+	font-size: 3rem;
 }
 
-.team-members{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    margin-top: 50px;
+.team-members {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	margin-top: 50px;
 }
 
-.member{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background: rgb(237, 247, 241);
+.member {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: rgb(237, 247, 241);
 }
 
-.member img{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.member img {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
-.member h3{
-    margin-top: 20px;
-    font-size: 1.5rem;
+.member h3 {
+	margin-top: 20px;
+	font-size: 1.5rem;
 }
 
-.member p{
-    color: var(--universlColor);
+.member p {
+	color: var(--universlColor);
 }
 
-.member span{
-    margin-top: 15px;
-    border: 0.5px solid var(--headingColor);
-    width: 20%;
-} 
-.member h6{
-    margin: 20px 0px;
-    display: flex;
-    align-items: center;
-    font-size: 1.2rem;
-    width: 100%;
-    font-weight: 400;
-    justify-content: center;
+.member span {
+	margin-top: 15px;
+	border: 0.5px solid var(--headingColor);
+	width: 20%;
+}
+.member h6 {
+	margin: 20px 0px;
+	display: flex;
+	align-items: center;
+	font-size: 1.2rem;
+	width: 100%;
+	font-weight: 400;
+	justify-content: center;
 }
 
-.member h6 i{
-    color: var(--universlColor);
-    display: flex;
+.member h6 i {
+	color: var(--universlColor);
+	display: flex;
 }
-.member h6 >a{
-    text-decoration: none;
-    font-size: 1rem !important;
-    color: #000 !important;
-}
-
-.member h6 >a:hover{
-    color: var(--universlColor) !important;
+.member h6 > a {
+	text-decoration: none;
+	font-size: 1rem !important;
+	color: #000 !important;
 }
 
-.showcase{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    width: 100%;
-    margin-top: 100px;
-    padding: 0px !important;
+.member h6 > a:hover {
+	color: var(--universlColor) !important;
 }
 
-.showcase-image{
-    display: flex;
+.showcase {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	width: 100%;
+	margin-top: 100px;
+	padding: 0px !important;
 }
 
-.showcase-image img{
-    max-width: 100%;
-    cursor: pointer;
+.showcase-image {
+	display: flex;
+}
+
+.showcase-image img {
+	max-width: 100%;
+	cursor: pointer;
+}
+
+/* responsive */
+@media screen and (max-width: 768px) {
+	.team {
+		display: flex;
+		flex-direction: column;
+		padding: 30px 20px;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.team h1 {
+		font-size: 2rem;
+		font-weight: 700;
+	}
+
+	.team-members {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 20px;
+		padding: 10px;
+		margin-top: 50px;
+	}
+
+	.member {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		background: rgb(237, 247, 241);
+		width: 100%;
+		margin: auto;
+	}
+
+	.member img {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		max-width: 100%;
+	}
+
+	.member h3 {
+		margin-top: 20px;
+		font-size: 1.5rem;
+	}
+
+	.member p {
+		color: var(--universlColor);
+	}
+
+	.member span {
+		margin-top: 15px;
+		border: 0.5px solid var(--headingColor);
+		width: 20%;
+	}
+	.member h6 {
+		margin: 20px 0px;
+		display: flex;
+		align-items: center;
+		font-size: 1.2rem;
+		width: 100%;
+		font-weight: 400;
+		justify-content: center;
+	}
+
+	.member h6 i {
+		color: var(--universlColor);
+		display: flex;
+	}
+	.member h6 > a {
+		text-decoration: none;
+		font-size: 1rem !important;
+		color: #000 !important;
+	}
+
+	.member h6 > a:hover {
+		color: var(--universlColor) !important;
+	}
+
+	.showcase {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		width: 100%;
+		margin-top: 100px;
+		padding: 0px !important;
+	}
+
+	.showcase-image {
+		display: flex;
+	}
+
+	.showcase-image img {
+		max-width: 100%;
+		cursor: pointer;
+	}
 }
