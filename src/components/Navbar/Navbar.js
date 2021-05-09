@@ -20,7 +20,7 @@ function Navbar() {
 				<nav className={click ? 'nav-options active' : 'nav-options'} id="navbar">
 					<ul>
 						<li>
-							<Link to="home" spy={true} smooth={true}>
+							<Link to="services" spy={true} smooth={true}>
 								<a href="#" className="active">
 									Services
 								</a>
@@ -32,7 +32,7 @@ function Navbar() {
 							</Link>
 						</li>
 						<li onClick={closeMobileMenu}>
-							<Link to="services" spy={true} smooth={true}>
+							<Link to="doctors" spy={true} smooth={true}>
 								<a href="#">Doctors</a>
 							</Link>
 						</li>
