@@ -106,7 +106,8 @@
 		margin-top: 20px;
 		color: var(--universlColor);
 		font-weight: 300;
-		margin-left: 100px;
+		margin-left: 120px;
+		width: 100%;
 		font-size: 1.2rem;
 	}
 
