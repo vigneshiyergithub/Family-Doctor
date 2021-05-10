@@ -1,59 +1,119 @@
-:root{
-    --universlColor: rgb(17, 114, 206);
-    --headingColor: rgb(14, 53, 90);
+:root {
+	--universlColor: rgb(17, 114, 206);
+	--headingColor: rgb(14, 53, 90);
 }
 
-.faqs{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 100px 30px;
+.faqs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 100px 30px;
 }
 
-.faqs h1{
-    font-size: 3rem;
+.faqs h1 {
+	font-size: 3rem;
 }
 
-.questions{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    width: 100%;
-    margin-top: 50px;
-    padding: 0px 50px;
+.questions {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+	width: 100%;
+	margin-top: 50px;
+	padding: 0px 50px;
 }
 
-.question-container{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+.question-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
 
-.quiz-head{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: var(--headingColor);
-    color: #fff;
-    cursor: pointer;
-    padding: 20px;
+.quiz-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: var(--headingColor);
+	color: #fff;
+	cursor: pointer;
+	padding: 20px;
 }
 
-.quiz-head:hover{
-    background: var(--universlColor);
+.quiz-head:hover {
+	background: var(--universlColor);
 }
 
-.quiz-head h5{
-    color: #fff !important;
-    font-size: 1.3rem;
-    width: 100%;
+.quiz-head h5 {
+	color: #fff !important;
+	font-size: 1.3rem;
+	width: 100%;
 }
 
-.quiz-head i{
-    font-size: 2rem;
+.quiz-head i {
+	font-size: 2rem;
 }
 
-.question-container p{
-    display: none;
+.question-container p {
+	display: none;
+}
+
+/* responsive */
+
+@media screen and (max-width: 768px) {
+	.faqs {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding: 20px 20px;
+	}
+
+	.faqs h1 {
+		font-size: 2rem;
+		font-weight: 700;
+	}
+
+	.questions {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 20px;
+		width: 100%;
+		margin-top: 30px;
+		padding: 0px 10px;
+	}
+
+	.question-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.quiz-head {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background: var(--headingColor);
+		color: #fff;
+		cursor: pointer;
+		padding: 20px;
+	}
+
+	.quiz-head:hover {
+		background: var(--universlColor);
+	}
+
+	.quiz-head h5 {
+		color: #fff !important;
+		font-size: 1rem;
+		width: 100%;
+	}
+
+	.quiz-head i {
+		font-size: 2rem;
+	}
+
+	.question-container p {
+		display: none;
+	}
 }
