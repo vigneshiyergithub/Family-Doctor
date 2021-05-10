@@ -66,7 +66,7 @@
 		background-size: 1200px 100%;
 		background-position: center;
 		background-repeat: no-repeat;
-		height: 100vh;
+		height: auto;
 		display: flex;
 		flex-direction: column;
 	}
@@ -96,18 +96,8 @@
 	.btn {
 		display: flex;
 		margin-top: 10px;
-		width: 80%;
-		justify-content: center;
-		align-items: center;
-		padding: 20px;
-		outline: none;
-		background: var(--universlColor);
-		border: none;
-		color: #fff;
-		font-weight: 500;
-		cursor: pointer;
-		border-radius: 50px;
-		transition: 0.5s;
+		width: 90%;
+		font-size: 1rem;
 	}
 
 	.btn:hover {
