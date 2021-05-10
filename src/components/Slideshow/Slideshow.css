@@ -1,54 +1,110 @@
-:root{
-    --universlColor: rgb(17, 114, 206);
-    --headingColor: rgb(14, 53, 90);
+:root {
+	--universlColor: rgb(17, 114, 206);
+	--headingColor: rgb(14, 53, 90);
 }
 
-.slider{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 100px 0px;
-    background: url(../../bg-images/testmonialsbg.jpg);
+.slider {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 100px 0px;
+	background: url(../../bg-images/testmonialsbg.jpg);
 }
 
-.slider-text{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    margin: auto;
-    margin-top: 20px;
-    padding: 50px;
-    border-radius: 10px;
+.slider-text {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	margin: auto;
+	margin-top: 20px;
+	padding: 50px;
+	border-radius: 10px;
 }
 
-.slider-text p{
-    font-size: 1.2rem;
-    text-align: center;
+.slider-text p {
+	font-size: 1.2rem;
+	text-align: center;
 }
 
-.slider-text h5{
-    margin-top: 30px;
-    color: var(--universlColor);
-    font-weight: 700;
+.slider-text h5 {
+	margin-top: 30px;
+	color: var(--universlColor);
+	font-weight: 700;
 }
 
-.chevrons{
-    display: flex;
+.chevrons {
+	display: flex;
 }
 
-.chevrons i{
-    background: var(--universlColor);
-    color: #fff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin-left: 20px;
-    margin-top: 30px;
+.chevrons i {
+	background: var(--universlColor);
+	color: #fff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 768px) {
+	.slider {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding: 20px 0px;
+		background: url(../../bg-images/testmonialsbg.jpg);
+	}
+
+	.slider-text {
+		display: flex;
+		flex-direction: column;
+		width: 80%;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		background-color: #fff;
+		margin: auto;
+		margin-top: 20px;
+		padding: 20px;
+		border-radius: 10px;
+	}
+
+	.slider-text p {
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	.slider-text h5 {
+		margin-top: 30px;
+		color: var(--universlColor);
+		font-weight: 700;
+		font-size: 0.9rem;
+	}
+
+	.chevrons {
+		display: flex;
+	}
+
+	.chevrons i {
+		background: var(--universlColor);
+		color: #fff;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+		margin-left: 20px;
+		margin-top: 30px;
+	}
 }
