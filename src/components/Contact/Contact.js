@@ -6,6 +6,26 @@ import { MdEmail } from 'react-icons/md';
 import './Contact.css';
 
 class Contact extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			name: '',
+			email: '',
+			phone: '',
+			message: '',
+		};
+
+		this.handleChange = this.handleChange.bind(this);
+	}
+
+	handleChange(event) {
+		this.setState({
+			name: event.terget.value,
+			email: event.terget.value,
+			phone: event.terget.value,
+			message: event.terget.value,
+		});
+	}
 	render() {
 		return (
 			<div className="contact-us" id="contact">
@@ -50,10 +70,17 @@ class Contact extends Component {
 					<div className="contact-form">
 						<form action="">
 							<h1>Get In Touch</h1>
-							<input type="text" placeholder="Name*" className="input-field" />
-							<input type="email" placeholder="Email*" className="input-field" />
-							<input type="tel" placeholder="Phone" className="input-field" />
-							<textarea name="message" id="message" cols="30" rows="2" placeholder="Message*"></textarea>
+							<input type="text" placeholder="Name*" value={this.state.name} className="input-field" />
+							<input type="email" placeholder="Email*" value={this.state.email} className="input-field" />
+							<input type="tel" placeholder="Phone" value={this.state.phone} className="input-field" />
+							<textarea
+								name="message"
+								id="message"
+								value={this.state.message}
+								cols="30"
+								rows="2"
+								placeholder="Message*"
+							></textarea>
 							<button className="submit-btn">Send Message</button>
 						</form>
 					</div>
