@@ -26,30 +26,40 @@ function Navbar() {
 								</a>
 							</Link>
 						</li>
-						<li onClick={closeMobileMenu}>
+						<li>
 							<Link to="about" spy={true} smooth={true}>
-								<a href="#">About Us</a>
+								<a href="#" onClick={closeMobileMenu}>
+									About Us
+								</a>
 							</Link>
 						</li>
-						<li onClick={closeMobileMenu}>
+						<li>
 							<Link to="doctors" spy={true} smooth={true}>
-								<a href="#">Doctors</a>
+								<a href="#" onClick={closeMobileMenu}>
+									Doctors
+								</a>
 							</Link>
 						</li>
-						<li onClick={closeMobileMenu}>
+						<li>
 							<Link to="team" spy="true" smooth={true}>
-								<a href="#">Team</a>
+								<a href="#" onClick={closeMobileMenu}>
+									Team
+								</a>
 							</Link>
 						</li>
 
-						<li onClick={closeMobileMenu}>
+						<li>
 							<Link to="partners" spy="true" smooth={true}>
-								<a href="#">Partners</a>
+								<a href="#" onClick={closeMobileMenu}>
+									Partners
+								</a>
 							</Link>
 						</li>
-						<li onClick={closeMobileMenu}>
+						<li>
 							<Link to="contact" spy={true} smooth={true}>
-								<a href="#">Contact</a>
+								<a href="#" onClick={closeMobileMenu}>
+									Contact
+								</a>
 							</Link>
 						</li>
 					</ul>
