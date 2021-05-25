@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiFillCloseCircle } from 'react-icons/ai';
 import './Modal.css';
 
 function Modal({ handleClose, show, children }) {
@@ -8,10 +9,13 @@ function Modal({ handleClose, show, children }) {
 			<form className="modal-main">
 				<h3>Request A Callback</h3>
 				<p>We can call you in 30 seconds, just enter your number below</p>
-				{/* {children} */}
+				{children}
 				<input type="text" placeholder="Name*" />
-				<input type="number" placeholder="Phone*" />
-				<button onClick={handleClose}>Request</button>
+				<input type="text" placeholder="Phone*" />
+				<button>Request</button>
+				<i onClick={handleClose}>
+					<AiFillCloseCircle />
+				</i>
 			</form>
 		</div>
 	);
