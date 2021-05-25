@@ -55,6 +55,12 @@
 	border: none;
 	border-radius: 50px;
 	background: #1d7dd6;
+	transition: 1s ease;
+	color: #fff;
+}
+
+.modal-main button:hover {
+	background: #093258;
 	color: #fff;
 }
 
@@ -62,8 +68,8 @@
 	position: absolute;
 	cursor: pointer;
 	font-size: 2rem;
-	top: -3%;
-	right: 0;
+	top: -4%;
+	right: -2%;
 }
 
 .display-block {
