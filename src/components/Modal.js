@@ -32,14 +32,13 @@ function Modal({ handleClose, show, children }) {
 	// form validation on button click
 
 	const showMessage = (name, phone, message) => {
-		if (name.value !== '' && phone.value !== '' && message.value !== '') {
+		if (name !== '' && phone !== '' && message !== '') {
 			let successElement = document.getElementById('success');
 			successElement.style.display = 'block';
 			setName('');
 			setPhone('');
 			setMessage('');
 		} else {
-			setError(error);
 			let errorElement = document.getElementById('error');
 			errorElement.style.display = 'block';
 		}
