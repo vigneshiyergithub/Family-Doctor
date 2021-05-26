@@ -7,6 +7,7 @@ function Modal({ handleClose, show, children }) {
 
 	const [name, setName] = useState('');
 	const [phone, setPhone] = useState('');
+	const [message, setMessage] = useState('');
 	const [error, setError] = useState('You must fill all the Field');
 	const [success, setSuccess] = useState('We will contact you shortly!!');
 
@@ -24,14 +25,23 @@ function Modal({ handleClose, show, children }) {
 		setPhone(event.target.value);
 	};
 
+	const handleMessageInput = (event) => {
+		setMessage(event.target.value);
+	};
+
 	// form validation on button click
 
-	const showMessage = () => {
-		if (name !== '' && phone !== '') {
-			setSuccess(success);
+	const showMessage = (name, phone, message) => {
+		if (name.value !== '' && phone.value !== '' && message.value !== '') {
+			let successElement = document.getElementById('success');
+			successElement.style.display = 'block';
+			setName('');
+			setPhone('');
+			setMessage('');
 		} else {
 			setError(error);
-			console.log(error);
+			let errorElement = document.getElementById('error');
+			errorElement.style.display = 'block';
 		}
 	};
 
@@ -40,10 +50,20 @@ function Modal({ handleClose, show, children }) {
 		<div className={showHideClassName}>
 			<form className="modal-main" onSubmit={handleSubmit}>
 				<h3>Request A Callback</h3>
-				<p>We can call you in 30 seconds, just enter your number below</p>
-
-				<input type="text" placeholder="Name*" value={name} onChange={handleNameChange} />
-				<input type="text" placeholder="Phone*" value={phone} onChange={handlePhoneChange} />
+				<p>We can call you in 30 seconds, just enter your details below</p>
+				<p id="error">{error}</p>
+				<input type="text" placeholder="Name*" value={name} onChange={handleNameChange} required />
+				<input type="text" placeholder="Phone*" value={phone} onChange={handlePhoneChange} required />
+				<textarea
+					name="message"
+					id="message"
+					cols="10"
+					rows="3"
+					value={message}
+					placeholder="Message*"
+					onChange={handleMessageInput}
+				></textarea>
+				<p id="success">{success}</p>
 				<button type="submit" onClick={showMessage}>
 					Request
 				</button>

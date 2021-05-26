@@ -18,7 +18,7 @@
 	transform: translate(-50%, -50%);
 	display: flex;
 	flex-direction: column;
-	padding: 50px;
+	padding: 30px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -35,7 +35,8 @@
 	font-size: 0.9rem !important;
 }
 
-.modal-main input {
+.modal-main input,
+.modal-main textarea {
 	display: flex;
 	margin-top: 10px;
 	width: 90%;
@@ -70,6 +71,21 @@
 	font-size: 2rem;
 	top: -4%;
 	right: -2%;
+}
+
+#error {
+	color: red;
+	font-weight: 300;
+	font-size: 0.9rem;
+	display: none;
+}
+
+#success {
+	color: rgb(37, 214, 37);
+	font-weight: 300;
+	font-size: 0.9rem;
+	display: none;
+	transition: 1s ease;
 }
 
 .display-block {
