@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { AiOutlineClose } from 'react-icons/ai';
 import { FaBars } from 'react-icons/fa';
+
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
@@ -41,14 +43,6 @@ function Navbar() {
 							</Link>
 						</li>
 						<li>
-							<Link to="team" spy="true" smooth={true}>
-								<a href="#" onClick={closeMobileMenu}>
-									Team
-								</a>
-							</Link>
-						</li>
-
-						<li>
 							<Link to="partners" spy="true" smooth={true}>
 								<a href="#" onClick={closeMobileMenu}>
 									Partners
@@ -59,6 +53,14 @@ function Navbar() {
 							<Link to="contact" spy={true} smooth={true}>
 								<a href="#" onClick={closeMobileMenu}>
 									Contact
+								</a>
+							</Link>
+						</li>
+
+						<li>
+							<Link to="contact" spy={true} smooth={true}>
+								<a href="#" onClick={closeMobileMenu}>
+									Sign Up
 								</a>
 							</Link>
 						</li>

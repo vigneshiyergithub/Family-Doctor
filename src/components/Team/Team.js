@@ -6,7 +6,7 @@ import './Team.css';
 
 function Team() {
 	return (
-		<div className="team">
+		<div className="team" id="doctors">
 			<h1>Choose Your Doctor</h1>
 
 			<div className="team-members">
