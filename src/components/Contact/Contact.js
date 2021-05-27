@@ -70,9 +70,27 @@ class Contact extends Component {
 					<div className="contact-form">
 						<form action="">
 							<h1>Get In Touch</h1>
-							<input type="text" placeholder="Name*" value={this.state.name} className="input-field" />
-							<input type="email" placeholder="Email*" value={this.state.email} className="input-field" />
-							<input type="tel" placeholder="Phone" value={this.state.phone} className="input-field" />
+							<input
+								type="text"
+								placeholder="Name*"
+								value={this.state.name}
+								className="input-field"
+								onChange={this.handleChange}
+							/>
+							<input
+								type="email"
+								placeholder="Email*"
+								value={this.state.email}
+								className="input-field"
+								onChange={this.handleChange}
+							/>
+							<input
+								type="tel"
+								placeholder="Phone"
+								value={this.state.phone}
+								className="input-field"
+								onChange={this.handleChange}
+							/>
 							<textarea
 								name="message"
 								id="message"
