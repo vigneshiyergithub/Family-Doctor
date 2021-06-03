@@ -106,8 +106,10 @@
 	display: flex;
 	margin-top: 8px;
 	padding: 20px;
+	z-index: 0;
 	outline: none;
 	background: rgb(236, 236, 236);
+	align-items: center;
 	border: none;
 }
 

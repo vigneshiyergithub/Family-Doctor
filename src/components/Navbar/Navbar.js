@@ -56,14 +56,6 @@ function Navbar() {
 								</a>
 							</Link>
 						</li>
-
-						<li>
-							<Link to="contact" spy={true} smooth={true}>
-								<a href="#" onClick={closeMobileMenu}>
-									Sign Up
-								</a>
-							</Link>
-						</li>
 					</ul>
 				</nav>
 				<div className="toggle mobile-menu" onClick={handleClick}>
