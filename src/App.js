@@ -21,12 +21,12 @@ function App() {
       <Call />
       <Services />
       <About />
-      <Credentials />
-      <Video />
-      <Team />
-      <Partners />
-      <Slideshow />
-      <FAQs />
+      {/* <Credentials /> */}
+      {/* <Video /> */}
+      {/* <Team /> */}
+      {/* <Partners /> */}
+      {/* <Slideshow /> */}
+      {/* <FAQs /> */}
       <GoogleMap />
       <Contact />
       <Footer />

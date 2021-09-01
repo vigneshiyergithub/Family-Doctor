@@ -9,7 +9,7 @@ function Footer() {
             <div className="footer-logo">
                 <a href="#">
                     <img src="../logo.png" alt=""/>
-                    <h1>Family Doctor</h1>
+                    <h1>Physionest</h1>
                 </a>
                 <p>
                     Choosing the right hospital and physician are important factors to consider
@@ -26,11 +26,11 @@ function Footer() {
                     <a href="#">Home</a>
                     <a href="#">About</a>
                     <a href="#">Services</a>
-                    <a href="#">Doctors</a>
-                    <a href="#">Gallery</a>
-                    <a href="#">Partners</a>
-                    <a href="#">Testimonials</a>
-                    <a href="#">Contacts</a>
+                    {/* <a href="#">Doctors</a> */}
+                    {/* <a href="#">Gallery</a> */}
+                    {/* <a href="#">Partners</a> */}
+                    {/* <a href="#">Testimonials</a> */}
+                    <a href="#contact">Contacts</a>
                 </div>
             </div>
 

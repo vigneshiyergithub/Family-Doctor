@@ -10,28 +10,28 @@ function Services() {
 			<div className="services-gallery">
 				<div className="image">
 					<img src="../../img/service1.jpg" alt="service" />
-					<h5>Consultations</h5>
+					<h5>Musculoskeletal physiotherapy</h5>
 				</div>
 				<div className="image">
 					<img src="../../img/service2.jpg" alt="service" />
-					<h5>Laboratory</h5>
+					<h5>Geriatric physiotherapy</h5>
 				</div>
 				<div className="image">
 					<img src="../../img/service3.jpg" alt="service" />
-					<h5>Cardiology</h5>
+					<h5>Paediatric physiotherapy</h5>
 				</div>
 				<div className="image">
 					<img src="../../img/service4.jpg" alt="service" />
-					<h5>Neurology</h5>
+					<h5>Sports physiotherapy</h5>
 				</div>
 				<div className="image">
 					<img src="../../img/service5.jpg" alt="service" />
-					<h5>Ambulance</h5>
+					<h5>Physiotherapy for rehabilitation and pain management</h5>
 				</div>
-				<div className="image">
+				{/* <div className="image">
 					<img src="../img/service6.jpg" alt="service" />
 					<h5>Dental Care</h5>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

@@ -16,26 +16,26 @@ function Navbar() {
 				<div className="logo">
 					<a href="#">
 						<img src="../../logo.png" alt="" />
-						<h1>Family Doctor</h1>
+						<h1>Physionest</h1>
 					</a>
 				</div>
 				<nav className={click ? 'nav-options active' : 'nav-options'} id="navbar">
 					<ul>
 						<li>
 							<Link to="services" spy={true} smooth={true}>
-								<a href="#" className="active">
+								<a href="#services" className="active">
 									Services
 								</a>
 							</Link>
 						</li>
 						<li>
 							<Link to="about" spy={true} smooth={true}>
-								<a href="#" onClick={closeMobileMenu}>
+								<a href="#about" onClick={closeMobileMenu}>
 									About Us
 								</a>
 							</Link>
 						</li>
-						<li>
+						{/* <li>
 							<Link to="doctors" spy={true} smooth={true}>
 								<a href="#" onClick={closeMobileMenu}>
 									Doctors
@@ -48,10 +48,10 @@ function Navbar() {
 									Partners
 								</a>
 							</Link>
-						</li>
+						</li> */}
 						<li>
 							<Link to="contact" spy={true} smooth={true}>
-								<a href="#" onClick={closeMobileMenu}>
+								<a href="#contact" onClick={closeMobileMenu}>
 									Contact
 								</a>
 							</Link>
