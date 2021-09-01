@@ -38,9 +38,11 @@ function Modal({ handleClose, show, children }) {
 			setName('');
 			setPhone('');
 			setMessage('');
+			setSuccess('');
 		} else {
 			let errorElement = document.getElementById('error');
 			errorElement.style.display = 'block';
+			setError('');
 		}
 	};
 

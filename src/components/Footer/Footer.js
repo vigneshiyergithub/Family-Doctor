@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div className="footer-container">
             <div className="footer-logo">
-                <a href="#">
+                <a href="#home">
                     <img src="../logo.png" alt=""/>
                     <h1>Physionest</h1>
                 </a>
@@ -17,15 +17,15 @@ function Footer() {
                     The preferred choice for many patients is choosing private care.
                 </p>
 
-                <p>Copyright © 2020 Privacy Policy</p>
+                <p>Copyright © 2021 Privacy Policy</p>
             </div>
 
             <div className="info">
                 <h3>Information</h3>
                 <div className="info-links">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
                     {/* <a href="#">Doctors</a> */}
                     {/* <a href="#">Gallery</a> */}
                     {/* <a href="#">Partners</a> */}

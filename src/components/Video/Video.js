@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-import { FiPlayCircle } from 'react-icons/fi';
+// import { FiPlayCircle } from 'react-icons/fi';
 
 import './Video.css';
 

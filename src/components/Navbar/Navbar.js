@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import { AiOutlineClose } from 'react-icons/ai';
 import { FaBars } from 'react-icons/fa';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
@@ -14,7 +14,7 @@ function Navbar() {
 		<div className="navbar">
 			<header>
 				<div className="logo">
-					<a href="#">
+					<a href="#home">
 						<img src="../../logo.png" alt="" />
 						<h1>Physionest</h1>
 					</a>

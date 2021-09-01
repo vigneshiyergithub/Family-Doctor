@@ -20,7 +20,7 @@ function Hero() {
 		setShow(false);
 	};
 	return (
-		<div className="hero-container">
+		<div className="hero-container" id="home">
 			<Navbar />
 
 			<div className="hero-description">
