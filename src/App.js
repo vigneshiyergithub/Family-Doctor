@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import GoogleMap from './components/Google/GoogleMap';
 import Hero from './components/Hero/Hero';
 import Services from './components/Services/Services';
+import FAQs from './components/FAQs/FAQs';
 import HelpServices from './components/Services Help/Help';
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
       {/* <Team /> */}
       {/* <Partners /> */}
       {/* <Slideshow /> */}
-      {/* <FAQs /> */}
+      <FAQs />
       <GoogleMap />
       <Contact />
       <Footer />

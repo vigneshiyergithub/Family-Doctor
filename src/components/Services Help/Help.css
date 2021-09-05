@@ -1,13 +1,14 @@
-.services-section {
+.help-services {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	padding: 60px 30px;
 	justify-content: center;
 	align-items: center;
+	background-color: #edfdf3
 }
 
-.services-section h1 {
+.help-services h1 {
 	font-size: 3.5rem;
 }
 
@@ -15,13 +16,14 @@
 	display: grid;
 	grid-template-columns: repeat(3, 2fr);
 	grid-gap: 20px;
+	width: 100%;
 }
 
 .readMore { 
 	cursor: pointer;
 }
 
-.image {
+.help-image {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -30,15 +32,15 @@
 	margin-top: 30px;
 }
 
-.image img {
+.help-image img {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	max-width: 100%;
 }
 
-.image h5 {
+.help-image h5 {
 	font-size: 1.5rem;
-	background: rgb(237, 247, 241);
+	background: rgb(95 230 149);
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -50,7 +52,7 @@
 /* responsive  */
 
 @media screen and (max-width: 768px) {
-	.services-section {
+	.help-services {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
@@ -59,7 +61,7 @@
 		align-items: center;
 	}
 
-	.services-section h1 {
+	.help-services h1 {
 		font-size: 1.8rem;
 		margin: auto;
 		text-align: center;
@@ -72,7 +74,7 @@
 		padding: 10px;
 	}
 
-	.image {
+	.help-image {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -82,14 +84,14 @@
 		margin-top: 30px;
 	}
 
-	.image img {
+	.help-image img {
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
 	}
 
-	.image h5 {
+	.help-image h5 {
 		font-size: 1rem;
-		background: rgb(237, 247, 241);
+		background: rgb(95 230 149);
 		width: 100%;
 		display: flex;
 		justify-content: center;

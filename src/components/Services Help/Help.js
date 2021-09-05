@@ -13,19 +13,19 @@ function HelpServices() {
 		setReadMore(!readMore);
 	};
 	return (
-		<div className="services-section" id="services">
+		<div className="help-services" id="services">
 			<h1>How our services can help you</h1>
 
 			<div className="services-gallery">
 				{
 					data.map((name, key) => { 
-						return <div className="image" key={`${name}_${key}`}>
+						return <div className="help-image" key={`${name}_${key}`}>
 						<h5>{name}</h5>
 					</div>
 					})
 				}
 				
-				<div className="image readMore" onClick={onReadMoreClick}>
+				<div className="help-image readMore" onClick={onReadMoreClick}>
 					<h5>{readMore ? 'Show Less' : 'Show More'}</h5>
 				</div>
 			</div>

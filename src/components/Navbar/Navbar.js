@@ -21,6 +21,7 @@ function Navbar() {
 				</div>
 				<nav className={click ? 'nav-options active' : 'nav-options'} id="navbar">
 					<ul>
+						<li />
 						<li>
 							<Link to="services" spy={true} smooth={true}>
 								<a href="#services" className="active">
@@ -56,6 +57,7 @@ function Navbar() {
 								</a>
 							</Link>
 						</li>
+						<li />
 					</ul>
 				</nav>
 				<div className="toggle mobile-menu" onClick={handleClick}>
