@@ -34,7 +34,9 @@
 
 .image h5 {
 	font-size: 1.5rem;
-	background: rgb(237, 247, 241);
+	background: rgb(91, 145, 226);
+	border-radius: 15px;
+	color: #fff;
 	width: 100%;
 	display: flex;
 	justify-content: center;

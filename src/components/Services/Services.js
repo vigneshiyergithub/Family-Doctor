@@ -28,6 +28,10 @@ function Services() {
 					<img src="../../img/service5.jpg" alt="service" />
 					<h5>Physiotherapy for rehabilitation and pain management</h5>
 				</div>
+				<div className="image">
+					<img src="../../img/service6.jpg" alt="service" />
+					<h5>Neuro Physiotherapy</h5>
+				</div>
 				{/* <div className="image">
 					<img src="../img/service6.jpg" alt="service" />
 					<h5>Dental Care</h5>

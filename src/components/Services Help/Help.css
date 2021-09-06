@@ -5,7 +5,7 @@
 	padding: 60px 30px;
 	justify-content: center;
 	align-items: center;
-	background-color: #edfdf3
+	background-color: white
 }
 
 .help-services h1 {
@@ -40,7 +40,9 @@
 
 .help-image h5 {
 	font-size: 1.5rem;
-	background: rgb(95 230 149);
+	background: rgb(51, 139, 240);
+	color: #fff;
+	border-radius: 6px;
 	width: 100%;
 	display: flex;
 	justify-content: center;

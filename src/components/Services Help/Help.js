@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import {AiFillCaretDown, AiFillCaretUp} from 'react-icons/ai';
 import './Help.css';
 
 const helpServices = ['Poor Posture', 'Muscle Tension', 'Shoulder Impingement', 
@@ -26,7 +26,7 @@ function HelpServices() {
 				}
 				
 				<div className="help-image readMore" onClick={onReadMoreClick}>
-					<h5>{readMore ? 'Show Less' : 'Show More'}</h5>
+					<h5><strong>{readMore ? <>Show Less &nbsp;<AiFillCaretUp /></> : <>Show More &nbsp;<AiFillCaretDown /></>}</strong></h5>
 				</div>
 			</div>
 		</div>
