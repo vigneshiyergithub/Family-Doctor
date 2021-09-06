@@ -21,7 +21,7 @@ function Services() {
 					<h5>Paediatric physiotherapy</h5>
 				</div>
 				<div className="image">
-					<img src="../../img/service4.jpg" alt="service" />
+					<img src="../../img/service4.png" alt="service" />
 					<h5>Sports physiotherapy</h5>
 				</div>
 				<div className="image">

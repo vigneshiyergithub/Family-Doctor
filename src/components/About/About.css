@@ -10,10 +10,10 @@
 	justify-content: center;
 	align-items: center;
 	padding-left: 250px;
-	background-image: url(../../bg-images/welcome.jpg);
+	background-image: url(../../bg-images/welcome.png);
 	background-color: rgb(237, 253, 243);
 	background-repeat: no-repeat;
-	background-position: -730px 0px;
+	background-position: -550px 0px;
 	background-size: cover;
 }
 

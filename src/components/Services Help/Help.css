@@ -1,104 +1,105 @@
 .help-services {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	padding: 60px 30px;
-	justify-content: center;
-	align-items: center;
-	background-color: white
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 60px 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
 }
 
 .help-services h1 {
-	font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 
 .services-gallery {
-	display: grid;
-	grid-template-columns: repeat(3, 2fr);
-	grid-gap: 20px;
-	width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 20px;
+  width: 100%;
 }
 
-.readMore { 
-	cursor: pointer;
+.readMore {
+  cursor: pointer;
 }
 
 .help-image {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .help-image img {
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	max-width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-width: 100%;
 }
 
 .help-image h5 {
-	font-size: 1.5rem;
-	background: rgb(51, 139, 240);
-	color: #fff;
-	border-radius: 6px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 10px;
-	font-weight: 300;
+  font-size: 1.5rem;
+  background: rgb(51, 139, 240);
+  color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-weight: 300;
 }
 
 /* responsive  */
 
 @media screen and (max-width: 768px) {
-	.help-services {
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-		padding: 30px 20px;
-		justify-content: center;
-		align-items: center;
-	}
+  .help-services {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 20px;
+    justify-content: center;
+    align-items: center;
+  }
 
-	.help-services h1 {
-		font-size: 1.8rem;
-		margin: auto;
-		text-align: center;
-	}
+  .help-services h1 {
+    font-size: 1.8rem;
+    margin: auto;
+    text-align: center;
+  }
 
-	.services-gallery {
-		display: grid;
-		grid-template-columns: repeat(1, 2fr);
-		grid-gap: 20px;
-		padding: 10px;
-	}
+  .services-gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    grid-gap: 20px;
+    padding: 10px;
+  }
 
-	.help-image {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
-		margin: auto;
-		margin-top: 30px;
-	}
+  .help-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+  }
 
-	.help-image img {
-		border-top-left-radius: 10px;
-		border-top-right-radius: 10px;
-	}
+  .help-image img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
 
-	.help-image h5 {
-		font-size: 1rem;
-		background: rgb(95 230 149);
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding: 10px;
-		font-weight: 500;
-	}
+  .help-image h5 {
+    font-size: 1rem;
+    background: rgb(51, 139, 240);
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: 500;
+  }
 }
