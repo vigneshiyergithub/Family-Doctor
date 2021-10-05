@@ -21,11 +21,12 @@
 	padding: 30px;
 	margin-top: 130px;
 	margin-left: 20px;
+	color: #EDf5E1;
 }
 
 .hero-description p {
 	font-weight: 700;
-	color: var(--universlColor);
+	color: #EDf5E1;
 	font-size: 1.7rem;
 }
 
@@ -34,6 +35,7 @@
 	font-weight: 600;
 	margin-top: 20px;
 	line-height: 1;
+	color: #EDf5E1;
 }
 
 .btn {
@@ -82,7 +84,7 @@
 
 	.hero-description p {
 		font-weight: 700;
-		color: var(--universlColor);
+		color: #EDf5E1;
 		font-size: 1.2rem;
 	}
 

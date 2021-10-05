@@ -9,26 +9,27 @@
 	padding: 50px 30px;
 	justify-content: center;
 	align-items: center;
-	padding-left: 250px;
-	background-image: url(../../bg-images/welcome.png);
-	background-color: rgb(237, 253, 243);
+	/* padding-left: 250px; */
+	/* background-image: url(../../bg-images/welcome.png); */
+	background-color: #7696ad;
 	background-repeat: no-repeat;
-	background-position: -550px 0px;
+	/* background-position: -550px 0px; */
 	background-size: cover;
 }
 
 .about-section h1 {
-	width: 30%;
-	margin-left: 50px;
+	/* width: 30%; */
+	/* margin-left: 50px; */
 	font-size: 3rem;
+	color: white
 }
 
 .about-section p {
-	width: 40%;
-	margin-left: 180px;
+	/* width: 40%; */
+	/* margin-left: 180px; */
 	font-size: 1.2rem;
 	margin-top: 20px;
-	color: var(--headingColor);
+	color: white;
 }
 
 .about-section h6 {
@@ -81,7 +82,7 @@
 		align-items: center;
 		padding-left: 0px;
 		background-image: none;
-		background-color: rgb(237, 253, 243);
+		background-color: #7696ad;
 		background-repeat: no-repeat;
 		background-position: 100% 100%;
 		background-size: cover;
@@ -97,9 +98,9 @@
 	.about-section p {
 		width: 90%;
 		margin-left: 20px;
-		font-size: 0.9rem;
+		font-size: 1.2rem;
 		margin-top: 20px;
-		color: var(--headingColor);
+		color: white;;
 	}
 
 	.about-section h6 {

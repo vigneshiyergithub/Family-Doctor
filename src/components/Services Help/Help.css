@@ -5,11 +5,12 @@
   padding: 60px 30px;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #7696ad;
 }
 
 .help-services h1 {
   font-size: 3.5rem;
+  color: white;
 }
 
 .services-gallery {

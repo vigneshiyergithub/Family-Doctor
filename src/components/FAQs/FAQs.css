@@ -9,10 +9,12 @@
 	align-items: center;
 	flex-direction: column;
 	padding: 100px 30px;
+	background-color: #7696ad;
 }
 
 .faqs h1 {
 	font-size: 3rem;
+	color: #fff;
 }
 
 .questions {
@@ -34,7 +36,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background: var(--headingColor);
+	background: #0e3b74;
 	color: #fff;
 	cursor: pointer;
 	padding: 20px;
@@ -54,9 +56,12 @@
 	font-size: 2rem;
 }
 
-/* .question-container p {
-	display: none;
-} */
+.question-container p {
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #fff !important;
+}
 
 /* responsive */
 

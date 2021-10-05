@@ -1,8 +1,8 @@
 .call-section {
 	display: flex;
 	padding: 70px 30px;
-	background: url(../../bg-images/call-bg.jpg);
-	background-color: rgb(51, 139, 240);
+	/* background: url(../../bg-images/call-bg.jpg); */
+	background-color: #0e3b74;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -24,7 +24,7 @@
 	font-size: 1.5rem;
 	font-weight: 600;
 	width: 30%;
-	background: rgb(91, 145, 226);
+	background: #50d5ff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -48,8 +48,8 @@
 	.call-section {
 		display: flex;
 		padding: 20px 20px;
-		background: url(../../bg-images/call-bg.jpg);
-		background-color: rgb(51, 139, 240);
+		/* background: url(../../bg-images/call-bg.jpg); */
+		background-color: #0e3b74;
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;

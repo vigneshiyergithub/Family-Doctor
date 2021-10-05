@@ -8,6 +8,8 @@
 	flex-direction: column;
 	width: 100%;
 	padding: 100px 0px;
+	margin-top: 20px;
+	background-color: #7696ad;
 }
 
 .contact-details {
@@ -33,6 +35,7 @@
 	font-size: 3rem;
 	font-weight: 600;
 	display: flex;
+	color: white;
 }
 
 .details h5 {
@@ -41,16 +44,17 @@
 	font-weight: 400;
 	font-size: 1rem;
 	align-items: center;
+	color: white;
 }
 
 .details h5 a {
 	text-decoration: none;
-	color: var(--headingColor);
+	color: white;
 	text-decoration: none;
 }
 
 .details h5 i {
-	color: var(--universlColor);
+	color: white;
 }
 
 .details h5 a:hover {
@@ -66,6 +70,7 @@
 
 .mailist p {
 	margin-top: 10px;
+	color: white;
 }
 
 .mailist p,
@@ -73,7 +78,7 @@
 .mailist p a {
 	display: flex;
 	align-items: center;
-	color: var(--headingColor);
+	color: white;
 }
 
 .mailist p a {
@@ -100,6 +105,7 @@
 .contact-form form h1 {
 	font-size: 3rem;
 	font-weight: 600;
+	color: white;
 }
 
 .input-field {
@@ -130,7 +136,7 @@
 	padding: 10px;
 	outline: none;
 	cursor: pointer;
-	background: var(--universlColor);
+	background: #0e3b74;
 	border: none;
 	color: #fff;
 	border-radius: 50px;
@@ -168,7 +174,7 @@
 	}
 
 	.details i {
-		color: var(--universlColor) !important;
+		color: white;
 		margin-right: 5px;
 	}
 
@@ -176,6 +182,7 @@
 		font-size: 2rem;
 		font-weight: 600;
 		display: flex;
+		color: white;
 	}
 
 	.details h5 {
@@ -184,16 +191,17 @@
 		font-weight: 400;
 		font-size: 1rem;
 		align-items: center;
+		color: white;
 	}
 
 	.details h5 a {
 		text-decoration: none;
-		color: var(--headingColor);
+		color: white;
 		text-decoration: none;
 	}
 
 	.details h5 i {
-		color: var(--universlColor);
+		color: white;
 	}
 
 	.details h5 a:hover {
@@ -216,7 +224,7 @@
 	.mailist p a {
 		display: flex;
 		align-items: center;
-		color: var(--headingColor);
+		color: white;
 	}
 
 	.mailist p a {
