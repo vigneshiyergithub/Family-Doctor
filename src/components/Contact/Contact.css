@@ -136,14 +136,14 @@
 	padding: 10px;
 	outline: none;
 	cursor: pointer;
-	background: #0e3b74;
+	background: rgb(51, 139, 240);
 	border: none;
 	color: #fff;
 	border-radius: 50px;
 }
 
 .submit-btn:hover {
-	background: var(--headingColor);
+	background: rgb(51, 139, 240);
 }
 
 /* responsive */
