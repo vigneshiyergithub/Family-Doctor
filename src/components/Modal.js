@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { AiFillCloseCircle } from 'react-icons/ai';
 import './Modal.css';
+// import { AiFillCloseCircle } from 'react-icons/ai';
 
 function Modal({ handleClose, show, children }) {
 	// manipulate state
