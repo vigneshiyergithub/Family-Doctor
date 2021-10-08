@@ -46,7 +46,7 @@ function Modal({ handleClose, show, children }) {
 		}
 	};
 
-	const showHideClassName = show ? 'modal display-block' : 'modal display-none';
+	const showHideClassName = 'modal-tool display-block';
 	return (
 		<div className={showHideClassName}>
 			<form className="modal-main" onSubmit={handleSubmit}>
@@ -68,9 +68,6 @@ function Modal({ handleClose, show, children }) {
 				<button type="submit" onClick={showMessage}>
 					Request
 				</button>
-				<i onClick={handleClose}>
-					<AiFillCloseCircle />
-				</i>
 			</form>
 		</div>
 	);
