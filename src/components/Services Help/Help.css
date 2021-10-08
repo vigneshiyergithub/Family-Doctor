@@ -5,7 +5,7 @@
   padding: 60px 30px;
   justify-content: center;
   align-items: center;
-  background-color: #7696ad;
+  background-color: #0b3565;
 }
 
 .help-services h1 {
@@ -51,7 +51,6 @@
   padding: 10px;
   font-weight: 300;
 }
-
 /* responsive  */
 
 @media screen and (max-width: 768px) {

@@ -34,14 +34,20 @@ class Contact extends Component {
             <h1>Contact Details</h1>
             <h5>
               <i>
-                <RiMap2Line color="#0e3b74" />
+                <RiMap2Line color="white" />
               </i>
               1225 Sacchidanand apt, Shukrawar peth, Shubhashnagar lane no 4
               Pune, Maharashtra 411002 India
             </h5>
             <h5>
               <i>
-                <RiPhoneFill color="#0e3b74" />
+                <RiPhoneFill color="white" />
+              </i>
+              <a href="tel:+919561251250">+919561251250</a>
+            </h5>
+            <h5>
+              <i>
+                <RiPhoneFill color="white" />
               </i>
               <a href="tel:+919028370634">+919028370634</a>
             </h5>
@@ -49,7 +55,7 @@ class Contact extends Component {
             <div className="mailist">
               <p>
                 <i>
-                  <MdEmail color="#0e3b74" />
+                  <MdEmail color="white" />
                 </i>
                 Contact: <a href="mailto:physionest7@gmail.com">physionest7@gmail.com</a>
               </p>

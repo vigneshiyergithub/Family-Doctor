@@ -126,6 +126,10 @@
 	transition: 0.3s;
 }
 
+.footer-logo a img {
+	width: 15rem;
+}
+
 /* responsive */
 
 @media screen and (max-width: 768px) {

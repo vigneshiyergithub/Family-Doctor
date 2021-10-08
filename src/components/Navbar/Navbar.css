@@ -22,6 +22,7 @@ header {
 .logo a img {
 	max-width: 100%;
 	transform: scale(1, 0.8);
+	width: 13rem;
 }
 
 .logo a h1 {

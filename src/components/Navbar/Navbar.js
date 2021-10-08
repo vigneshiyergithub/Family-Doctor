@@ -15,8 +15,8 @@ function Navbar() {
 			<header>
 				<div className="logo">
 					<a href="#home">
-						<img src="../../logo.png" alt="" />
-						<h1>Physionest</h1>
+						<img src="../../logo_transparent.png" alt="" />
+						{/* <h1>Physionest</h1> */}
 					</a>
 				</div>
 				<nav className={click ? 'nav-options active' : 'nav-options'} id="navbar">

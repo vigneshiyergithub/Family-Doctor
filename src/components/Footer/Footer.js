@@ -13,8 +13,8 @@ function Footer() {
     <div className="footer-container">
       <div className="footer-logo">
         <a href="#home">
-          <img src="../logo.png" alt="" />
-          <h1>Physionest</h1>
+          <img src="../logo_transparent.png" alt="" />
+          {/* <h1>Physionest</h1> */}
         </a>
         <p>
           Choosing the right hospital and physician are important factors to
@@ -44,6 +44,9 @@ function Footer() {
         <p>
           1225 Sacchidanand apt, Shukrawar peth, Shubhashnagar lane no 4 Pune,
           Maharashtra 411002 India
+        </p>
+        <p>
+          Phone <a href="tel:+919561251250">+919561251250</a>
         </p>
         <p>
           Phone <a href="tel:+919028370634">+919028370634</a>
