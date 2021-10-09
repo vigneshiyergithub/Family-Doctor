@@ -30,7 +30,7 @@ function Hero() {
         <p>Be healthy now is so simple</p>
         <h1>We Take Care Of Your Health</h1>
         <ResponsiveModal open={show} onClose={closeModal} center>
-          <Modal />
+          <Modal handleClose={closeModal}/>
         </ResponsiveModal>
         <button className="btn" onClick={showModal}>
           Request an appointment

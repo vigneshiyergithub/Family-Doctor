@@ -52,6 +52,7 @@ function Modal({ handleClose, show, children }) {
 			setPhone('');
 			setMessage('');
 			setSuccess('');
+			handleClose()
 		} else {
 			let errorElement = document.getElementById('error');
 			errorElement.style.display = 'block';
