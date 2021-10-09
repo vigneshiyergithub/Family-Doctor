@@ -17,7 +17,7 @@
 	width: 100%;
 	justify-content: space-between;
 	padding: 20px 50px;
-	margin-top: 250px;
+	/* margin-top: 250px; */
 }
 
 .details {
@@ -164,7 +164,7 @@
 		justify-content: center;
 		flex-direction: column;
 		padding: 10px 20px;
-		margin-top: 380px;
+		/* margin-top: 380px; */
 	}
 
 	.details {
