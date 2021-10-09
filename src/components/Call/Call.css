@@ -1,6 +1,6 @@
 .call-section {
 	display: flex;
-	padding: 70px 30px;
+	padding: 50px 30px;
 	/* background: url(../../bg-images/call-bg.jpg); */
 	background-color: #0b3565;
 	background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 	font-size: 1.5rem;
 	font-weight: 600;
 	width: 30%;
-	background: #50d5ff;
+	background: #104b8f;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -41,6 +41,7 @@
 
 .call-section p a:hover {
 	opacity: 0.3;
+	background: #1978e4;
 }
 
 /* responsive code  */

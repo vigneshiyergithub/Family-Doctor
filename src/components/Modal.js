@@ -31,8 +31,21 @@ function Modal({ handleClose, show, children }) {
 
 	// form validation on button click
 
-	const showMessage = (name, phone, message) => {
+	const showMessage = (e) => {
 		if (name !== '' && phone !== '' && message !== '') {
+			const requestParams = {
+				headers: { 'Content-Type' : 'application/json' },
+				method: 'POST',
+				body: JSON.stringify({
+					message,
+					contactName : name, 
+					phone
+				})
+			}
+			fetch('/.netlify/functions/sendEmail', requestParams)
+				.then(resp => resp.json())
+				.then(resp => console.log("Email", resp))
+				.catch(e => console.log("Error in email", e))
 			let successElement = document.getElementById('success');
 			successElement.style.display = 'block';
 			setName('');

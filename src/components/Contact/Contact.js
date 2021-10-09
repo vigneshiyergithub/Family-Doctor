@@ -15,17 +15,35 @@ class Contact extends Component {
       message: "",
     };
 
-    this.handleChange = this.handleChange.bind(this);
   }
 
-  handleChange(event) {
-    this.setState({
-      name: event.terget.value,
-      email: event.terget.value,
-      phone: event.terget.value,
-      message: event.terget.value,
-    });
+  sendMessage = (e) => {
+    e.preventDefault(); 
+    const {name, email, phone, message} = this.state;
+    const requestParams = {
+      headers: { 'Content-Type' : 'application/json' },
+      method: 'POST',
+      body: JSON.stringify({
+        message,
+        contactName : name, 
+        phone,
+        contactEmail : email,
+      })
+    }
+    fetch('/.netlify/functions/sendEmail', requestParams)
+      .then(resp => {if(resp.statusCode === 200) {console.log(resp.body);}})
+      .then(() => {
+        this.setState({
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
+        })
+      });
+      // .then(resp => console.log("Email", resp))
+      // .catch(e => console.log("Error in email", e))
   }
+
   render() {
     return (
       <div className="contact-us" id="contact">
@@ -63,25 +81,31 @@ class Contact extends Component {
           </div>
 
           <div className="contact-form">
-            <form>
+            <form >
               <h1>Get In Touch</h1>
               <input
                 type="text"
                 placeholder="Name*"
                 className="input-field"
                 required
+                value={this.state.name}
+                onChange={(e) => this.setState({ name: e.target.value })}
               />
               <input
                 type="email"
                 placeholder="Email*"
                 className="input-field"
                 required
+                value={this.state.email}
+                onChange={(e) => this.setState({email: e.target.value })}
               />
               <input
                 type="tel"
                 placeholder="Phone"
                 className="input-field"
                 required
+                value={this.state.phone}
+                onChange={(e) => this.setState ({phone: e.target.value })}
               />
               <textarea
                 name="message"
@@ -89,8 +113,10 @@ class Contact extends Component {
                 cols="30"
                 rows="2"
                 placeholder="Message*"
+                value={this.state.message}
+                onChange={(e) => this.setState ({message: e.target.value})}
               ></textarea>
-              <button className="submit-btn">Send Message</button>
+              <button className="submit-btn" onClick={this.sendMessage}>Send Message</button>
             </form>
           </div>
         </div>
