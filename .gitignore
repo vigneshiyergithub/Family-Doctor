@@ -11,6 +11,10 @@
 # production
 /build
 
+
+#nextjs on Hold
+/physionest
+
 # misc
 .DS_Store
 .env

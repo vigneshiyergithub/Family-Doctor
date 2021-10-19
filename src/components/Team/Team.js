@@ -12,12 +12,14 @@ function Team() {
           {/* <img src="../../img/doctor3.jpg" alt="doctor" /> */}
           <h3>Dr Amol Salvi </h3>
           <p>BPTH / MPTH (ortho sports)</p>
+          <p>Matrix therapy practitioner Germany</p>
         </div>
 
         <div className="member">
           {/* <img src="../../img/doctor3.jpg" alt="doctor" /> */}
           <h3>Hrishikesh zanwar</h3>
           <p>MBA ( SCM)</p>
+          <p><br/></p>
         </div>
 
         <div className="member">
@@ -26,6 +28,7 @@ function Team() {
           <p>
             BPTh MPTH (Ortho -Sports) <br /> Dry Needling Practitioner
           </p>
+          <p><br/></p>
         </div>
 
         <div className="member">
@@ -37,6 +40,7 @@ function Team() {
             <br />
             &nbsp; UK{" "}
           </p>
+          <p><br/></p>
         </div>
       </div>
 
