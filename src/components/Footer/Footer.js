@@ -6,6 +6,7 @@ import {
   TiSocialLinkedin,
   TiRss,
 } from "react-icons/ti";
+import { RiPhoneFill } from "react-icons/ri";
 import "./Footer.css";
 
 function Footer() {
@@ -19,7 +20,7 @@ function Footer() {
         <p>
           Choosing the right hospital and physician are important factors to
           consider that significantly influence a patient’s treatment. The
-          preferred choice for many patients is choosing private care.
+          preferred choice for many patients is Physionest.
         </p>
 
         <p>Copyright © 2021 Privacy Policy</p>
@@ -45,12 +46,24 @@ function Footer() {
           1225 Sacchidanand apt, Shukrawar peth, Shubhashnagar lane no 4 Pune,
           Maharashtra 411002 India
         </p>
-        <p>
+        <h5>
+          <i>
+            <RiPhoneFill color="white" />
+          </i>
+          <a href="tel:+919561251250">+919561251250</a>
+        </h5>
+        <h5>
+          <i>
+            <RiPhoneFill color="white" />
+          </i>
+          <a href="tel:+919028370634">+919028370634</a>
+        </h5>
+        {/* <p>
           Phone <a href="tel:+919561251250">+919561251250</a>
         </p>
         <p>
           Phone <a href="tel:+919028370634">+919028370634</a>
-        </p>
+        </p> */}
         <a href="mailto:physionest7@gmail.com">physionest7@gmail.com</a>
 
         <div className="social">
